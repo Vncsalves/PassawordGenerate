@@ -1,7 +1,7 @@
 {
-  "name": "password-generete",
+  "name": "password-generate",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -12,10 +12,12 @@
     "expo": "~52.0.42",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.8"
+    "react-native": "0.76.8",
+    "expo-clipboard": "~7.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
